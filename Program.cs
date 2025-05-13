@@ -51,3 +51,19 @@ else
 {
     Console.WriteLine($"Год {D} не Високосный");
 }//Шестая задача
+
+Console.Write("Введите первое число: ");
+double y = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите операцию (+ - * /): ");
+char op = Convert.ToChar(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+double f = Convert.ToDouble(Console.ReadLine());
+
+if (op == '+') Console.WriteLine(y + f);
+else if (op == '-') Console.WriteLine(y - f);
+else if (op == '*') Console.WriteLine(y * f);
+else if (op == '/') Console.WriteLine(y / f);
+else Console.WriteLine("Неизвестная операция!");
+//седьмая задача
