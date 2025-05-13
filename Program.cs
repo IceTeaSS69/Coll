@@ -8,5 +8,9 @@ if (c % 2 == 0)
 else
 {
     Console.WriteLine("Число НЕчётное");
-}
-    Console.WriteLine(a + b); //Первая задача
+}//вторая задача
+Console.WriteLine(a + b); //Первая задача
+if (a > b)
+{
+    Console.WriteLine(a > b);
+} //третья задача 
