@@ -1,6 +1,7 @@
 ﻿int a = 5;
 int b = 6;
 int c = a + b;
+Console.WriteLine(a + b); //Первая задача
 if (c % 2 == 0)
 {
     Console.WriteLine("Число Чётное");
@@ -10,7 +11,6 @@ else
     Console.WriteLine("Число НЕчётное");
 }//вторая задача
 
-Console.WriteLine(a + b); //Первая задача
 if (a > b)
 {
     Console.WriteLine(a > b);
@@ -24,4 +24,12 @@ for (int i = 1; i <= 10; i++)
     {
         Console.WriteLine($"{i} * {j} = {i * j}");
     }
+    Console.WriteLine();
 }//Четвертая задача
+
+Console.Write("Введите N: ");
+int N = int.Parse(Console.ReadLine());
+
+int sum = N * (N + 1) / 2;
+
+Console.WriteLine($"Сумма чисел от 1 до {N} = {sum}");//пятая задача
